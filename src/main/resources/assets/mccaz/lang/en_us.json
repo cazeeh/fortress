@@ -1,0 +1,13 @@
+{
+  "itemGroup.mccaz": "Example Mod Tab",
+  "block.mccaz.example_block": "Example Block",
+  "item.mccaz.example_item": "Example Item",
+
+  "mccaz.configuration.title": "mccaz Configs",
+  "mccaz.configuration.section.mccaz.common.toml": "mccaz Configs",
+  "mccaz.configuration.section.mccaz.common.toml.title": "mccaz Configs",
+  "mccaz.configuration.items": "Item List",
+  "mccaz.configuration.logDirtBlock": "Log Dirt Block",
+  "mccaz.configuration.magicNumberIntroduction": "Magic Number Text",
+  "mccaz.configuration.magicNumber": "Magic Number"
+}
