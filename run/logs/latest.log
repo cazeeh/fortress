@@ -1,0 +1,73 @@
+[08Apr2026 19:16:40.369] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 243ms
+[08Apr2026 19:16:40.382] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (CLIENT in DEV)
+[08Apr2026 19:16:40.384] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: D:\User Data\Documents\fortress\run
+[08Apr2026 19:16:40.733] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 115) in 296ms
+[08Apr2026 19:16:40.734] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[08Apr2026 19:16:40.735] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/HosenillaPC/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[08Apr2026 19:16:40.737] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/HosenillaPC/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/10.0.32/1ca2e62504996c417c19e740513f8d09b880359e/earlydisplay-10.0.32.jar
+[08Apr2026 19:16:40.744] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[08Apr2026 19:16:41.248] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[08Apr2026 19:16:41.368] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates mccaz%%D:\\User Data\\Documents\\fortress\\build\\classes\\java\\main;mccaz%%D:\\User Data\\Documents\\fortress\\build\\resources\\main from env
+[08Apr2026 19:16:41.409] [fml-loadingscreen/INFO] [net.neoforged.fml.earlydisplay.render.LoadingScreenRenderer/]: GL info: Radeon RX 5500 XT GL version 3.3.0 Core Profile Context 26.3.1.260303, ATI Technologies Inc.
+[08Apr2026 19:16:41.656] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[08Apr2026 19:16:41.659] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Fortress 0.0.1 (fortress)
+		Minecraft 1.21.10 (minecraft)
+		NeoForge 21.10.64 (neoforge)
+[08Apr2026 19:16:42.010] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/HosenillaPC/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
+[08Apr2026 19:16:42.054] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[08Apr2026 19:16:42.055] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - D:/User Data/Documents/fortress/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar
+[08Apr2026 19:16:42.216] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+ - fortress (composite(folder(D:/User Data/Documents/fortress/build/classes/java/main), folder(D:/User Data/Documents/fortress/build/resources/main)))
+ - minecraft (composite(jar(D:/User Data/Documents/fortress/build/moddev/artifacts/neoforge-21.10.64-client-extra-aka-minecraft-resources.jar), filtered(jar(D:/User Data/Documents/fortress/build/moddev/artifacts/neoforge-21.10.64.jar))))
+ - mixinextras.neoforge (jar(D:/User Data/Documents/fortress/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar))
+ - neoforge (composite(filtered(jar(D:/User Data/Documents/fortress/build/moddev/artifacts/neoforge-21.10.64.jar))))
+ - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
+[08Apr2026 19:16:42.233] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 35ms
+[08Apr2026 19:16:44.136] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 281 Datafixer optimizations took 529 milliseconds
+[08Apr2026 19:16:44.210] [pool-8-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[08Apr2026 19:16:50.698] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08Apr2026 19:16:50.700] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08Apr2026 19:16:50.704] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08Apr2026 19:16:50.709] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08Apr2026 19:16:50.712] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08Apr2026 19:16:50.716] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
+[08Apr2026 19:16:50.814] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.64, for MC 1.21.10
+[08Apr2026 19:16:51.510] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[08Apr2026 19:16:51.532] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[08Apr2026 19:16:51.651] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[08Apr2026 19:16:51.652] [Render thread/WARN] [net.minecraft.client.Minecraft/]: Detected unexpected shutdown during last game startup: resetting fullscreen mode
+[08Apr2026 19:16:51.901] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[08Apr2026 19:16:52.724] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/fortress, mod/neoforge
+[08Apr2026 19:16:52.750] [resourceLoad/INFO] [net.mccaz.fortress.Fortress/]: HELLO FROM COMMON SETUP
+[08Apr2026 19:16:52.750] [resourceLoad/INFO] [net.mccaz.fortress.Fortress/]: DIRT BLOCK >> minecraft:dirt
+[08Apr2026 19:16:52.750] [resourceLoad/INFO] [net.mccaz.fortress.Fortress/]: The magic number is... 42
+[08Apr2026 19:16:52.751] [resourceLoad/INFO] [net.mccaz.fortress.Fortress/]: ITEM >> minecraft:iron_ingot
+[08Apr2026 19:16:53.088] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_pua-16.0.03.hex, loading
+[08Apr2026 19:16:53.088] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.03.hex, loading
+[08Apr2026 19:16:53.253] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.03.hex, loading
+[08Apr2026 19:16:53.311] [resourceLoad/INFO] [net.mccaz.fortress.Fortress/]: HELLO FROM CLIENT SETUP
+[08Apr2026 19:16:53.311] [resourceLoad/INFO] [net.mccaz.fortress.Fortress/]: MINECRAFT NAME >> Dev
+[08Apr2026 19:16:54.606] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing model for variant: 'Block{fortress:example_block}'
+[08Apr2026 19:16:55.008] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphones (UGREEN HiTune Max5c)
+[08Apr2026 19:16:55.008] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[08Apr2026 19:16:55.016] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[08Apr2026 19:16:55.019] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[08Apr2026 19:16:55.019] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[08Apr2026 19:16:55.021] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[08Apr2026 19:16:55.023] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[08Apr2026 19:16:55.023] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[08Apr2026 19:16:55.033] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/chest.png-atlas
+[08Apr2026 19:16:55.035] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[08Apr2026 19:16:55.035] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[08Apr2026 19:16:55.037] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[08Apr2026 19:16:55.046] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[08Apr2026 19:16:55.046] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[08Apr2026 19:16:55.047] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[08Apr2026 19:16:55.179] [Render thread/WARN] [net.minecraft.client.resources.model.ModelManager/]: No model loaded for default item model ID fortress:example_block of fortress:example_block
+[08Apr2026 19:16:55.179] [Render thread/WARN] [net.minecraft.client.resources.model.ModelManager/]: No model loaded for default item model ID fortress:example_item of fortress:example_item
+[08Apr2026 19:16:55.181] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[08Apr2026 19:17:19.768] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
